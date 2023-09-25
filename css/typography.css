@@ -1,0 +1,12 @@
+/* body text font/colour */
+body {
+  font-family: "Esteban", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* display fonts */
+h3, h5 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}

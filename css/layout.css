@@ -1,0 +1,60 @@
+/* centers card, contains clickable area */
+main {
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.card-container {
+  background-color: hsl(349, 92%, 39%);
+  
+  margin: auto;
+  max-width: 35ch;
+
+  border: solid hsl(48, 89%, 50%);
+  border-radius: 1rem;
+}
+
+.card-img {
+  padding: 1rem 1rem 0.6rem 1rem;
+  max-width: 90%;
+  
+  border-radius: 25px;
+  
+  mix-blend-mode: normal;
+  clip-path: ellipse(210px 160px at 30% 50%);
+}
+
+.card-text {
+  background-color: hsl(0, 0%, 97%);
+  color: hsl(0, 0%, 0%);
+  
+  margin: 0 auto 0.7rem auto;
+  max-width: 29ch;
+  padding: 1rem;
+  
+  border: solid #f1c40f;
+  border-radius: 1rem;
+}
+
+.card-title {
+  color:hsl(48, 89%, 50%);
+  
+  margin: 0 0 0 1rem;
+}
+
+.mobile-hint {
+  text-align: center;
+  
+  max-width: 20ch;
+  margin: 4rem auto 0 auto;
+
+  border: 3px solid hsl(48, 89%, 50%);
+  border-radius: 1rem;
+}
+
+/* position, number, team */
+.player-details {
+  color: hsl(0, 0%, 97%);
+  
+  margin: 0 0 1rem 1rem;
+}
